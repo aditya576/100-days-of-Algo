@@ -9,7 +9,7 @@ int main() {
 	{
 	    int n,a[10000];
 	    std::cin>>n;//8 3 6
-	    int max=n;//Maximum value is the size of the array now,considering that every car is moving at its maximum speed 
+	    int max=n;//Maximum value is the size of the array now,that is, the total number of cars
 	    for(int i=0;i<n;i++)
 	    std::cin>>a[i];
 	    for(int i=1;i<n;i++)
@@ -23,7 +23,7 @@ int main() {
 	            }
 	        }
 	    }
-	    std::cout<<max<<'\n';
+	    std::cout<<max<<'\n';//will output the cars moving at their maximum speed for every testcase(t)
 	}
 	return 0;
 }
