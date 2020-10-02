@@ -38,7 +38,8 @@ int main() {
 	    
 	    if(s=="INDIAN")
 	    cout<<laddus/200<<'\n';/*if the player is indian he can redeem 200 laddus in a month,so the number 
-				     of months for which he can redeem laddus are number of laddus/200(>600 ladduus(3 times),>800 laddus(4 times),>200(1 time)*/
+				     of months for which he can redeem laddus are number of laddus/200(greater than 600 ladduus(3 times),
+				     greater than 800 laddus(4 times),greater than200(1 time)*/
 	    else if(s=="NON_INDIAN")
 	    cout<<laddus/400<<'\n';/*if the player is not an indian he can redeem 400 laddus at a time, so the
 				   number of months for which he can redeem laddus are number of laddus/400*/
